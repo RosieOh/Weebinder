@@ -5,7 +5,7 @@
   <artifactId>Weebinder</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>pro3 Maven Webapp</name>
+  <name>Weebinder Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <properties>
     <java-version>17</java-version>
@@ -303,7 +303,7 @@
 
   </dependencies>
   <build>
-    <finalName>pro03</finalName>
+    <finalName>Weebinder</finalName>
     <plugins>
       <plugin>
         <artifactId>maven-eclipse-plugin</artifactId>
