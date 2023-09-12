@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Weebinder:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/Weebinder_war</output-path>
+    <root id="archive" name="Weebinder_war.war">
+      <element id="artifact" artifact-name="Weebinder:war exploded" />
+    </root>
+  </artifact>
+</component>
