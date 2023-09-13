@@ -16,20 +16,7 @@
 <body>
 <div class="container is-fullhd">
     <jsp:include page="./include/hd.jsp" />
-    <figure class="visual" id="vs1">
-        <ul class="imgbox">
-            <li class="hero is-medium is-link">
-                <div class="hero-body">
-                    <p class="title">
-                        Medium hero
-                    </p>
-                    <p class="subtitle">
-                        Medium subtitle
-                    </p>
-                </div>
-            </li>
-        </ul>
-    </figure>
+    <jsp:include page="./include/main_banner.jsp" />
     <div class="contents">
         ${today } <h2>${myName }</h2>
     </div>

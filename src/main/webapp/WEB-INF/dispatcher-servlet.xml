@@ -47,12 +47,12 @@
     </beans:bean>
 
     <!-- 기본 메인 패키지 및 컨트롤러 패키지 설정 -->
-    <context:component-scan base-package="kr.co.teaspoon.controller" />
+    <context:component-scan base-package="kr.co.weebinder.controller" />
     <annotation-driven />
 
     <!-- 인터셉터 : 글쓰기와 같은 회원권한을 가진 경우는 반드시 로그인 페이지를 거쳐서 시도할 것  -->
-    <!-- <beans:bean id="sampleIntercepter" class="kr.co.teaspoon.util.SampleInterceptor" />
-    <beans:bean id="adminIntercepter" class="kr.co.teaspoon.util.AdminInterceptor" />
+    <!-- <beans:bean id="sampleIntercepter" class="kr.co.weebinder.util.SampleInterceptor" />
+    <beans:bean id="adminIntercepter" class="kr.co.weebinder.util.AdminInterceptor" />
     <interceptors>
         <interceptor>
             <mapping path="/free/**"/>

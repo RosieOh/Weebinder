@@ -9,31 +9,31 @@
         </layout>
     </appender>
 
-    <logger name="kr.co.teaspoon.controller">
+    <logger name="kr.co.weebinder.controller">
         <level value="info" />
     </logger>
 
-    <logger name="kr.co.teaspoon.dao">
+    <logger name="kr.co.weebinder.dao">
         <level value="info" />
     </logger>
 
-    <logger name="kr.co.teaspoon.dto">
+    <logger name="kr.co.weebinder.dto">
         <level value="info" />
     </logger>
 
-    <logger name="kr.co.teaspoon.service">
+    <logger name="kr.co.weebinder.service">
         <level value="info" />
     </logger>
 
-    <logger name="kr.co.teaspoon.util">
+    <logger name="kr.co.weebinder.util">
         <level value="info" />
     </logger>
 
-    <logger name="kr.co.teaspoon.test">
+    <logger name="kr.co.weebinder.test">
         <level value="info" />
     </logger>
 
-    <logger name="kr.co.teaspoon">
+    <logger name="kr.co.weebinder">
         <level value="info" />
     </logger>
 

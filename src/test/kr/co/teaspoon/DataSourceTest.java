@@ -1,4 +1,4 @@
-package kr.co.teaspoon;
+package kr.co.weebinder;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
